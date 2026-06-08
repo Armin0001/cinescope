@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npx @angular/cli@18 build",
+  "outputDirectory": "dist/tmdb-app/browser",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
