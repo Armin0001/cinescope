@@ -612,7 +612,7 @@ export class MovieDetailComponent implements OnInit {
 
   onImgError(event: Event): void {
     const img = event.target as HTMLImageElement;
-    img.src = 'assets/placeholder.svg';
+    img.src = 'placeholder.svg';
   }
 
   toggleWatchlistMenu(): void {

@@ -279,7 +279,7 @@ export class TmdbService {
 
   // Image URL helpers
   getImageUrl(path: string | null, size: string = 'w500'): string {
-    if (!path) return 'assets/placeholder.svg';
+    if (!path) return 'placeholder.svg';
     return `${environment.tmdbImageUrl}${size}${path}`;
   }
 
